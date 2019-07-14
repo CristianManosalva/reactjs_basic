@@ -11,6 +11,7 @@ class FormTasks extends Component{
             priority: 'low'
         };
         this.handleInput = this.handleInput.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleInput(e){
@@ -22,7 +23,8 @@ class FormTasks extends Component{
     }
 
     handleSubmit(e){
-        e.preventDefaul();
+        e.preventDefault();
+        this.props.onAddTask(this.state);
     }
     render(){
         return(
