@@ -1,25 +1,34 @@
 {
     "tasks":[
         {
-            "title": "Pintar Audi",
+            "title": "Task Audi",
             "responsible": "Willintong Abadia",
             "description": "Lorem impsum",
             "priority": "low"
-
         },
         {
-            "title": "Dejar de Valer Verga",
+            "title": "Valer Verga",
             "responsible": "Samir Valencia",
             "description": "Lorem impsum 2",
             "priority": "medium"
-
         },
         {
             "title": "Reload Tesla",
             "responsible": "Sr. Musk",
             "description": "Lorem impsum 3",
             "priority": "high"
-
+        },
+        {
+            "title": "rubunuStore",
+            "responsible": "Sr. Musk",
+            "description": "Lorem impsum 3",
+            "priority": "high"
+        },
+        {
+            "title": "Memap",
+            "responsible": "Sr. Musk",
+            "description": "Lorem impsum 3",
+            "priority": "high"
         }
     ]
 }
